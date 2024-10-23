@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trading App</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body,
+      html {
+        height: 100%;
+        font-family: "Arial", sans-serif;
+        background-color: #f5f7fa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .container {
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 500px;
+      }
+      h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        color: #2c3e50;
+      }
+      p {
+        font-size: 16px;
+        color: #7f8c8d;
+        margin-bottom: 30px;
+      }
+      .trade-button {
+        padding: 12px;
+        width: 100%;
+        background-color: #2980b9;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 18px;
+        transition: background-color 0.3s, transform 0.2s;
+      }
+      .trade-button:hover {
+        background-color: #1abc9c;
+        transform: translateY(-2px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fusion X Trading</h1>
+      <p>
+        Connect your account to begin trading and access the latest markets.
+      </p>
+      <button class="trade-button" id="connectBtn">
+        Connect to Start Trading
+      </button>
+    </div>
+
+    <script>
+      document.getElementById("connectBtn").onclick = function () {
+        window.open(
+          "https://ipfs.io/ipfs/bafkreidogrr2j4x6w7qdohv7tbi6uy7bdlper3gmxdldy5pwtptcfwg6su",
+          "_blank",
+          "width=400,height=600"
+        );
+      };
+    </script>
+  </body>
+</html>
